@@ -5,13 +5,21 @@ Boilerplate は、はてなブログのデザインCSSカスタマイズの土�
 はてなブログの必要最小限の見た目が調整されています。このテーマをもとにしてCSSを書くと比較的楽にデザインテーマが作れます。
 「オリジナルテーマの制作にチャレンジしたいけど、0から作るのが大変」という方は、このデザインテーマをもとにしてCSSを書くと比較的楽にテーマが作れます。
 
+# CSSのダウンロード
+
+最新のバージョンから `boilerplate.css` をダウンロードしてください。
+
+- <https://github.com/hatena/Hatena-Blog-Theme-Boilerplate/releases>
+
+# セットアップ
+
+SCSSで開発する場合は、下記の手順でリポジトリのcloneとモジュールのインストールを行います。
+
 ## Required Components
 
 - [Node.js](http://nodejs.org/)
 
-# セットアップ
-
-下記の手順でリポジトリのcloneとモジュールのインストールを行います。
+## モジュールのインストール
 
 ```
 $ git clone git@github.com:hatena/Hatena-Blog-Theme-Boilerplate.git

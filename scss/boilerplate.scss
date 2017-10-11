@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*
+  Theme: boilerplate
+  Author: Hatena Blog Team
+  Responsive: yes
+  Description:
+    はてなブログのデザインCSSカスタマイズの土台に適したデザインテーマです。
+    このテーマをもとにしてCSSを書くと比較的楽にカスタマイズできます。
+    特定の部分（例えば記事本文の書式やコメント欄のスタイルなど）だけをコピーして使ってもかまいません。
+    もちろんそのままの状態でも、シンプルなテーマとして使うことができます。
+    このCSSおよびSCSSファイルは自由に複製・再配布できます。
+    このテーマをもとにしたデザインテーマの配布も自由です。
+  Released under the MIT License.
+*/
+
+// import normalize
+@import "node_modules/normalize.css/normalize";
+
+// import variable
+@import "lib/_variable";
+
+// import core
+@import "lib/_core";

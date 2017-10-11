@@ -1,0 +1,25 @@
+{
+  "name": "hatena-blog-theme-boilerplate",
+  "version": "2.0.0",
+  "description": "Boilerplate for Hatena Blog theme",
+  "author": "Hatena Blog",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "npm-run-all -p watch server",
+    "build": "npm-run-all scss autoprefixer",
+    "scss": "node-sass scss/boilerplate.scss build/boilerplate.css --output-style expanded --indent-width 4",
+    "autoprefixer": "postcss --use autoprefixer -r build/boilerplate.css --map true",
+    "server": "browser-sync start -c bs-config.js",
+    "watch": "chokidar 'scss/' -c 'npm run build'"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "browser-sync": "^2.18.13",
+    "chokidar-cli": "^1.2.0",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1"
+  }
+}

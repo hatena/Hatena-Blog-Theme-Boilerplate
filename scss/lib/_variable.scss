@@ -1,0 +1,27 @@
+// Variables
+
+// Background color
+$background: #fff;
+$bg-light: #f5f5f5;
+
+// text color
+$text: #454545;
+$text-light: #999;
+$text-header: #333;
+
+// link
+$link: #1487bd;
+$hover: darken($link, 10%);
+
+// border
+$border: #ddd;
+
+// button
+$btn: #fff;
+$btn-hover: #f5f5f5;
+
+// Media Queries
+$mq-xs: "(max-width: 480px)";
+$mq-sm: "(min-width: 768px)";
+$mq-md: "(min-width: 992px)";
+$mq-lg: "(min-width: 1200px)";

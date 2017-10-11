@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Ignore build
+build/

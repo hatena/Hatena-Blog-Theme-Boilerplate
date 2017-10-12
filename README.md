@@ -15,7 +15,7 @@ Boilerplate は、はてなブログのデザインCSSカスタマイズの土�
 
 SCSSで開発する場合は、下記の手順でリポジトリのcloneとモジュールのインストールを行います。
 
-## Required Components
+## Required Component
 
 - [Node.js](http://nodejs.org/)
 

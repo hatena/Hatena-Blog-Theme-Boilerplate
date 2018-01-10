@@ -11,7 +11,7 @@
     "scss": "node-sass scss/boilerplate.scss build/boilerplate.css --output-style expanded --indent-width 4",
     "autoprefixer": "postcss --use autoprefixer -r build/boilerplate.css --map true",
     "server": "browser-sync start -c bs-config.js",
-    "watch": "chokidar 'scss/' -c 'npm run build'"
+    "watch": "chokidar \"scss/\" -c \"npm run build\""
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",

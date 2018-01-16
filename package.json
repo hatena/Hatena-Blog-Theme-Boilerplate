@@ -8,8 +8,8 @@
     "prestart": "npm run build",
     "start": "npm-run-all -p watch server",
     "build": "npm-run-all scss autoprefixer",
-    "scss": "node-sass scss/boilerplate.scss build/boilerplate.css --output-style expanded --indent-width 4",
-    "autoprefixer": "postcss --use autoprefixer -r build/boilerplate.css --map true",
+    "scss": "node-sass scss/boilerplate.scss build/boilerplate.css --output-style expanded --indent-width 4 --source-map build/",
+    "autoprefixer": "postcss --use autoprefixer -r build/boilerplate.css",
     "server": "browser-sync start -c bs-config.js",
     "watch": "chokidar \"scss/\" -c \"npm run build\""
   },

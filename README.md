@@ -19,7 +19,7 @@ SCSSで開発する場合は、下記の手順でリポジトリのcloneとモ�
 
 ## Required Component
 
-- [Node.js](http://nodejs.org/)
+- [Node.js](https://nodejs.org/)
 
 ## モジュールのインストール
 
@@ -39,14 +39,16 @@ $ npm start
 
 また、コンパイル後 `build/boilerplate.css` が作られます。
 
-つづいて、[はてなブログ](http://blog.hatena.ne.jp/)でテーマ検証に使うブログを1つ用意します。ブログの「設定」->「詳細設定」にアクセスし、「headに要素を追加」欄に下記を貼り付けて保存します。
+つづいて、[はてなブログ](https://blog.hatena.ne.jp/)の設定を行います。
+
+1. テーマ検証に使うブログを1つ用意します。
+1. 1.で作成したブログの「デザイン設定」にアクセスし、「カスタマイズ」タブの「デザインCSS」の内容を下記に置き換えて保存します。
 
 ```
-<link rel="stylesheet" href="http://localhost:3000/boilerplate.css"/>
-<script async src="http://localhost:3000/browser-sync/browser-sync-client.js"></script>
+@import url("http://localhost:3000/boilerplate.css");
 ```
 
-以降は、ブログを開いた状態でSCSSファイルを保存すると、変更したスタイルが自動的に反映されます。
+※ Browsersync のブラウザ自動リロードはサポートしていません。
 
 ## （オプション）レスポンシブデザインのテーマ開発
 

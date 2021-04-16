@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic';
+    font-family: $font-family-sans-serif;
     color: $text;
     background-color: $background;
     line-height: 1.6;
@@ -313,7 +313,7 @@ h1,h2,h3,h4,h5,h6 {
     }
     pre,
     code {
-        font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+        font-family: $font-family-monospace;
     }
     pre {
         background: $bg-light;
@@ -329,7 +329,7 @@ h1,h2,h3,h4,h5,h6 {
             white-space: pre;
             border: none;
             background-color: transparent;
-            font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+            font-family: $font-family-monospace;
         }
     }
     code {

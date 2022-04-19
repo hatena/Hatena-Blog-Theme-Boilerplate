@@ -1,17 +1,17 @@
 {
-  "name": "hatena-blog-theme-boilerplate",
+  "name": "hatena-blog-theme-cocodrips",
   "version": "2.0.0",
-  "description": "Boilerplate for Hatena Blog theme",
+  "description": "Hatena Blog theme",
   "author": "Hatena Blog",
   "license": "MIT",
   "scripts": {
     "prestart": "npm run build",
     "start": "npm-run-all -p watch server",
     "build": "npm-run-all scss autoprefixer",
-    "scss": "node-sass scss/boilerplate.scss build/boilerplate.css --output-style expanded --indent-width 4 --source-map build/",
-    "autoprefixer": "postcss --use autoprefixer -r build/boilerplate.css",
+    "scss": "node-sass scss/piyopiyo_code/main.scss build/piyopiyo-code.css --output-style expanded --indent-width 4 --source-map build/",
+    "autoprefixer": "postcss --use autoprefixer -r build/piyopiyo-code.css",
     "server": "browser-sync start -c bs-config.js",
-    "watch": "chokidar \"scss/\" -c \"npm run build\""
+    "watch": "chokidar \\\\\\\"scss/\\\\\\\" -c \\\\\\\"npm run build\\\\\\\""
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",

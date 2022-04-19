@@ -1,0 +1,17 @@
+.hatena-module-body {
+  font-size: $base-font-size - 2;
+  line-height: ($base-font-size - 2)*1.5;
+}
+
+.hatena-module-category {
+  .hatena-module-body {
+    li {
+
+      display: inline;
+    }
+
+    li::after {
+      content: " / ";
+    }
+  }
+}

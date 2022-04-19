@@ -1,7 +1,7 @@
 // Variables
 
 // Font
-$font-family-base: 'Helvetica Neue', 'Helvetica','Segoe UI', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic';
+$font-family-base: 'Helvetica Neue', 'Helvetica','Segoe UI', 'Arial', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'MS PGothic';
 $font-family-monospace: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
 
 // Background color
@@ -9,13 +9,16 @@ $background: #fff;
 $bg-light: #f5f5f5;
 
 // text color
-$text: #454545;
-$text-light: #999;
-$text-header: #333;
+$text: #282828;
+$text-light: rgb(168, 171, 177);
+$text-header: #282828;
+
+// accent
+$accent-base: #78cec6;
 
 // link
-$link: #1487bd;
-$hover: darken($link, 10%);
+$link: $text;
+$hover: $text;
 
 // border
 $border: #ddd;
@@ -29,3 +32,7 @@ $mq-xs: "(max-width: 480px)";
 $mq-sm: "(min-width: 768px)";
 $mq-md: "(min-width: 992px)";
 $mq-lg: "(min-width: 1200px)";
+
+$base-font-size: 18px;
+// back
+$light-bg: #F7F9F9;

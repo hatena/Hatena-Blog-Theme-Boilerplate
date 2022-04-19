@@ -16,8 +16,13 @@
 // import normalize
 @import "node_modules/normalize.css/normalize";
 
-// import variable
-@import "lib/_variable";
+@import "_variable";
 
-// import core
-@import "lib/_core";
+// import base
+@import "../lib/_core";
+
+// import original
+@import "_core";
+@import "_title";
+@import "_entry";
+@import "_module";

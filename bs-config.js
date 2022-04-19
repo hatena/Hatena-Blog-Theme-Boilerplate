@@ -1,5 +1,5 @@
 module.exports = {
-    files: ['build/scss.css'],
+    files: ['build/piyopiyo-code.css'],
     server: {
         baseDir: "build"
     },

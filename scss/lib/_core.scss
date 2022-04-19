@@ -7,8 +7,10 @@ body {
 }
 a {
     color: $link;
+    text-decoration: underline;
     &:hover {
         color: $hover;
+        text-decoration: none;
     }
     &.keyword {
         text-decoration: none;

@@ -1,0 +1,25 @@
+#blog-title {
+  max-width: 720px;
+  margin: 2em 0;
+  text-align: left;
+  @media #{$mq-sm} {
+    margin: 2em auto;
+    text-align: left;
+  }
+}
+
+#title {
+  margin: 0;
+  font-size: 1.3rem;
+  @media #{$mq-md} {
+    font-size: 1.3rem;
+  }
+
+  a {
+    color: $text;
+    text-decoration: underline;
+    text-decoration-color: $accent-base;
+    text-decoration-thickness: 15%;
+    text-underline-offset: 15%;
+  }
+}

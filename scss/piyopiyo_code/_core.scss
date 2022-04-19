@@ -1,0 +1,54 @@
+a {
+  color: $text;
+  text-decoration: underline;
+}
+
+
+// 1 column
+#content-inner {
+  flex-direction: column;
+  align-items: center;
+}
+
+#wrapper {
+  @media #{$mq-sm} {
+    width: 100%;
+  }
+  @media #{$mq-md} {
+    max-width: 720px;
+  }
+}
+
+#box2 {
+  width: 100%;
+  @media #{$mq-sm} {
+    width: 100%;
+  }
+  @media #{$mq-md} {
+    width: 100%;
+  }
+}
+
+#box2-inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  @media #{$mq-sm} {
+    margin-left: -20px;
+    flex-direction: row;
+  }
+  @media #{$mq-md} {
+    margin-left: -30px;
+  }
+}
+
+.hatena-module {
+  width: 100%;
+  @media #{$mq-sm} {
+    width: 50%;
+  }
+  @media #{$mq-md} {
+    padding-left: 30px;
+  }
+}

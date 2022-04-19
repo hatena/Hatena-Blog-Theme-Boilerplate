@@ -7,8 +7,8 @@
   "scripts": {
     "prestart": "npm run build",
     "start": "npm-run-all -p watch server",
-    "build": "npm-run-all piyopiyo-code autoprefixer",
-    "scss": "node-sass piyopiyo-code/piyopiyo-code.scss build/piyopiyo-code.css --output-style expanded --indent-width 4 --source-map build/",
+    "build": "npm-run-all scss autoprefixer",
+    "scss": "node-sass piyopiyo-code/main.scss build/piyopiyo-code.css --output-style expanded --indent-width 4 --source-map build/",
     "autoprefixer": "postcss --use autoprefixer -r build/piyopiyo-code.css",
     "server": "browser-sync start -c bs-config.js",
     "watch": "chokidar \\\"piyopiyo-code/\\\" -c \\\"npm run build\\\""

@@ -304,10 +304,10 @@ h1,h2,h3,h4,h5,h6 {
         border: 1px solid $border;
         margin: 0 0 10px;
         padding: 20px;
-        p:first-child {
+        p:first-of-type {
             margin-top: 0;
         }
-        p:last-child {
+        p:last-of-type {
             margin-bottom: 0;
         }
     }

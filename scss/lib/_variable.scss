@@ -1,15 +1,16 @@
 // Variables
 
 // Font
-$font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic';
+$font-family-base: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', sans-serif;
 $font-family-monospace: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
 
 // Background color
-$background: #fff;
+$background: #FCFAF2;
+$bg-lighter: lighten($background, 5%);
 $bg-light: #f5f5f5;
 
 // text color
-$text: #454545;
+$text: #373C38;
 $text-light: #999;
 $text-header: #333;
 
@@ -29,3 +30,7 @@ $mq-xs: "(max-width: 480px)";
 $mq-sm: "(min-width: 768px)";
 $mq-md: "(min-width: 992px)";
 $mq-lg: "(min-width: 1200px)";
+
+// Colors
+$primary: #58B2DC;
+$secondary: #F7D94C;

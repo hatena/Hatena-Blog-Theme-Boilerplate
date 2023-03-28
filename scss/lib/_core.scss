@@ -337,10 +337,11 @@ h1,h2,h3,h4,h5,h6 {
     code, .code {
         font-size: 90%;
         margin: 0 2px;
-        padding: 0px 5px;
+        padding: 10px;
         background-color: $cd-bg;
         color: $cd-fg;
-        border-radius: 3px;
+        border-radius: 8px;
+        filter:drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.4));
     }
     hr {
         width: 50%;

@@ -5,21 +5,13 @@
   "author": "Hatena Blog",
   "license": "MIT",
   "scripts": {
-    "prestart": "npm run build",
-    "start": "npm-run-all -p watch server",
-    "build": "npm-run-all scss autoprefixer",
-    "scss": "sass scss/boilerplate.scss build/boilerplate.css --style=expanded --source-map",
-    "autoprefixer": "postcss --use autoprefixer -r build/boilerplate.css",
-    "server": "browser-sync start -c bs-config.js",
-    "watch": "chokidar \"scss/\" -c \"npm run build\""
+    "start": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "browser-sync": "^2.27.9",
-    "chokidar-cli": "^3.0.0",
+    "autoprefixer": "^10.4.14",
     "normalize.css": "^8.0.1",
-    "npm-run-all": "^4.1.5",
-    "postcss-cli": "^9.1.0",
-    "sass": "^1.50.0"
+    "sass": "^1.63.6",
+    "vite": "^4.4.3"
   }
 }

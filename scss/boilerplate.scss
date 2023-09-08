@@ -13,11 +13,7 @@
   Released under the MIT License.
 */
 
-// import normalize
-@import "../node_modules/normalize.css/normalize";
+@import "normalize.css";
 
-// import variable
-@import "lib/_variable";
-
-// import core
-@import "lib/_core";
+@import "./lib/_variable";
+@import "./lib/_core";

@@ -53,8 +53,8 @@ $ npm start
     ```
 3. 1.のブログの「設定」->「詳細設定」にアクセスし、「&lt;head&gt;要素にメタデータを追加」を下記に置き換えて保存します。
     ``` html
-    <script type="module" src="http://localhost:5173/@vite/client"></script>
-    <link rel="stylesheet" type="text/css" href="http://localhost:5173/scss/boilerplate.scss" />
+    <script type="module" src="http://localhost:5173/@vite/client" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:5173/scss/boilerplate.scss" crossorigin="anonymous" />
     ```
 
 以上の設定が完了すると、動作確認用のブログに開発中のテーマが反映されます。ブログにアクセスし、表示を確認しながらテーマの開発を行なってください。

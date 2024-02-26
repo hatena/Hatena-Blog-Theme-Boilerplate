@@ -38,13 +38,7 @@ $ npm install
 
 開発サーバーを利用することで、SCSSの変更をリアルタイムにブログに反映させながらテーマの開発を行えます。
 
-下記のコマンドで、開発サーバーを起動します。
-
-``` console
-$ npm start
-```
-
-つづいて、[はてなブログ](https://blog.hatena.ne.jp/)の設定を行います。
+まずは[はてなブログ](https://blog.hatena.ne.jp/)の設定を行います。
 
 1. テーマの動作確認に使うブログを1つ用意します。（普段お使いのブログとは別にブログを作成してください。）
 2. 1.のブログの「デザイン設定」にアクセスし、「カスタマイズ」タブの「デザインCSS」の内容を下記に置き換えて保存します。
@@ -57,7 +51,19 @@ $ npm start
     <link rel="stylesheet" type="text/css" href="http://localhost:5173/scss/boilerplate.scss" crossorigin="anonymous" />
     ```
 
-以上の設定が完了すると、動作確認用のブログに開発中のテーマが反映されます。ブログにアクセスし、表示を確認しながらテーマの開発を行なってください。
+つづいて下記のコマンドで、開発サーバーを起動します。`BLOG_DOMAIN_NAME` の部分には、上で用意した動作確認に使うブログのドメイン名 (例: `example.hatenablog.com`) を入力してください。
+
+``` console
+$ npm start -- BLOG_DOMAIN_NAME
+```
+
+コマンド実行例:
+
+``` console
+$ npm start -- example.hatenablog.com
+```
+
+以上が完了すると、動作確認用のブログに開発中のテーマが反映されます。ブログにアクセスし、表示を確認しながらテーマの開発を行なってください。
 
 ## コンパイル
 

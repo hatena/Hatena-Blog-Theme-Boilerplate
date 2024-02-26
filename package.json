@@ -4,8 +4,9 @@
   "description": "Boilerplate for Hatena Blog theme",
   "author": "Hatena Blog",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "node server.js",
     "build": "vite build"
   },
   "devDependencies": {

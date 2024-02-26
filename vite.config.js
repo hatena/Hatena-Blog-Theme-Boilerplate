@@ -18,4 +18,15 @@ export default defineConfig({
       plugins: [autoprefixer()],
     },
   },
+  plugins: [
+    {
+      name: "configure-server",
+      configureServer: (server) => {
+        server.middlewares.use((_req, res, next) => {
+          res.setHeader("access-control-allow-private-network", "true");
+          next();
+        });
+      },
+    },
+  ],
 });

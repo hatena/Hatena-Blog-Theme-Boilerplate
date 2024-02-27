@@ -4,14 +4,15 @@
   "description": "Boilerplate for Hatena Blog theme",
   "author": "Hatena Blog",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "vite",
+    "start": "node server.js",
     "build": "vite build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.17",
     "normalize.css": "^8.0.1",
-    "sass": "^1.63.6",
-    "vite": "^4.4.3"
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
   }
 }

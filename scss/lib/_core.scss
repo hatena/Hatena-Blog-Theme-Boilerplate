@@ -28,15 +28,6 @@ h1,h2,h3,h4,h5,h6 {
     }
 }
 
-/* ヘッダ（グローバルヘッダ）
-  グローバルヘッダの中はiframeですが、
-  #globalheader-container に背景色や文字色を指定することでiframeの中にも色が反映されます。
-*/
-#globalheader-container {
-    background-color: $text;
-    color: $background;
-}
-
 /* container */
 #container,
 #footer {
